@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -26,19 +26,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Vives/WebDevelopment/Kiliannuytten.github.io/labos/labo6/demo/image",
-    "list.type.of.created.stylesheet": "CSS",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Vives/WebDevelopment/Kiliannuytten.github.io/labos/labo6&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo6" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo6\demo\image" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo4" />
     </key>
@@ -65,6 +66,11 @@
       <workItem from="1666808048279" duration="2165000" />
       <workItem from="1666870961264" duration="58000" />
       <workItem from="1666948098207" duration="5668000" />
+      <workItem from="1667143867353" duration="838000" />
+      <workItem from="1667395700540" duration="2233000" />
+      <workItem from="1667471044973" duration="3898000" />
+      <workItem from="1667475058452" duration="1588000" />
+      <workItem from="1667484347634" duration="2863000" />
     </task>
     <servers />
   </component>
