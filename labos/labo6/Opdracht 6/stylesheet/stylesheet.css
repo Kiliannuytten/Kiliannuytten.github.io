@@ -1,9 +1,7 @@
 .checklist {
-    width: 50px;
-    height: 50px;
-    border: 2px solid #CCCCCC;
+    list-style-image: url("../images/unchecked.png");
 }
 
 .checked {
-
+    list-style-image: url("../images/checked.png");
 }
