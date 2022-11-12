@@ -26,19 +26,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Vives/WebDevelopment/oplossingen/oplossingen css deel 02(2)/oplossingen css deel 02/css deel 02 opdracht 06",
-    "list.type.of.created.stylesheet": "CSS",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Vives/WebDevelopment/Kiliannuytten.github.io/labos/labo7/Opdracht personal homepage met CSS&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo7\Opdracht personal homepage met CSS" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo6" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo6\demo\image" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo4" />
@@ -73,7 +74,8 @@
       <workItem from="1667484347634" duration="2863000" />
       <workItem from="1667498405918" duration="749000" />
       <workItem from="1667506083635" duration="900000" />
-      <workItem from="1668161903848" duration="296000" />
+      <workItem from="1668161903848" duration="8911000" />
+      <workItem from="1668264576342" duration="3746000" />
     </task>
     <servers />
   </component>
