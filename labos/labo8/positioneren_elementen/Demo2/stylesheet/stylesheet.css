@@ -1,0 +1,46 @@
+body    {
+    background-color: #8D99AE;
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav     {
+    background-color: #FFFFFF;
+    float: left;
+    width: 20%;
+    height: 200px;
+}
+
+section {
+    background-color: #FF0000;
+    float: left;
+    width: 80%;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+section span    {
+    color: green;
+}
+
+footer  {
+    background-color: #00FF00;
+    clear: both;
+    height: 200px;
+    text-align: center;
+}

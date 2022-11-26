@@ -26,30 +26,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Vives/WebDevelopment/Kiliannuytten.github.io/labos/labo7/Opdracht personal homepage met CSS&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Vives/WebDevelopment/Kiliannuytten.github.io/labos/labo8",
+    "list.type.of.created.stylesheet": "CSS",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo7\Opdracht personal homepage met CSS" />
+      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo8" />
+      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo7" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo6" />
-      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo6\demo\image" />
-      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo4" />
+      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo5" />
+      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\Stylesheet" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo6\Opdracht 3" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo5\Opdracht 6" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo4\Opdracht 4" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo4\Opdracht 5" />
-      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo2\Opdracht 9" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -83,7 +84,16 @@
       <workItem from="1668640049044" duration="456000" />
       <workItem from="1668679736616" duration="27000" />
       <workItem from="1668686204781" duration="902000" />
-      <workItem from="1668705562328" duration="1099000" />
+      <workItem from="1668705562328" duration="2454000" />
+      <workItem from="1668765156436" duration="5596000" />
+      <workItem from="1668794454806" duration="44000" />
+      <workItem from="1668809567156" duration="655000" />
+      <workItem from="1668943980192" duration="44000" />
+      <workItem from="1669113371886" duration="1389000" />
+      <workItem from="1669154311645" duration="488000" />
+      <workItem from="1669308530103" duration="1940000" />
+      <workItem from="1669370735527" duration="6739000" />
+      <workItem from="1669465974448" duration="4766000" />
     </task>
     <servers />
   </component>

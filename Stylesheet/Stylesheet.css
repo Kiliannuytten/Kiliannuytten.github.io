@@ -1,0 +1,32 @@
+body    {
+    background-color: #17252A;
+}
+
+header{
+    font-size: 5em;
+    color: white;
+    text-align: center;
+    text-decoration: underline solid black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+div {
+    background-color: #3AAFA9;
+}
+
+#wrapper{
+    width: 90%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+P   {
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+a   {
+    font-size: 3.5em;
+    color: #DEF2F1;
+}

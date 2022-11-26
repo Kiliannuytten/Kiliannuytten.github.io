@@ -1,0 +1,22 @@
+body    {
+    background-color: #17252A;
+    padding-top: 50px;
+}
+
+a   {
+    padding-left: 50px;
+    font-size: 3em;
+    color: #DEF2F1;
+}
+
+h1   {
+    text-align: center;
+    font-size: 3em;
+    color: #DEF2F1;
+}
+
+iframe  {
+    width: 2000px;
+    height: 900px;
+    margin-left: 200px;
+}
