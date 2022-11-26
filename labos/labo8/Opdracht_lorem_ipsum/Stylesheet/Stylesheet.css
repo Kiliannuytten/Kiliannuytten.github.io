@@ -1,4 +1,6 @@
 body    {
+    padding: 0px;
+    margin: 0px;
 
 }
 
@@ -8,13 +10,13 @@ p{
 
 section#box1 {
     border: 2px solid black;
-    float: left;
+    float: left ;
     width: 50%;
 }
 
 section#box2{
     border: 2px solid black;
-    float: left;
+    float: right;
     width: 50%;
 }
 

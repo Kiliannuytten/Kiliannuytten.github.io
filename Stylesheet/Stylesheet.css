@@ -9,21 +9,25 @@ header{
     text-decoration: underline solid black;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color: #2B7A78;
+    border: 10px solid black;
 }
 div {
     background-color: #3AAFA9;
+    border: 10px solid black;
 }
 
 #wrapper{
     width: 90%;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
 }
 
 P   {
-    padding-left: 20px;
+    padding-left: 100px;
     padding-bottom: 50px;
+
 }
 
 a   {
