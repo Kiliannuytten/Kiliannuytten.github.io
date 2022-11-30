@@ -1,6 +1,6 @@
 body    {
-    padding: 0px;
     margin: 0px;
+    padding 0px;
 
 }
 
@@ -8,15 +8,12 @@ p{
     font-size: 1.25em;
 }
 
-section#box1 {
-    border: 2px solid black;
+section {
+    padding: 10px;
     float: left ;
     width: 50%;
+
 }
 
-section#box2{
-    border: 2px solid black;
-    float: right;
-    width: 50%;
-}
+
 

@@ -49,7 +49,7 @@ h2  {
     color: #EF233C;
 }
 
-.weekly > a:hover{
+.weekly > a:first-child:hover{
     background-color: #5A3825;
 }
 
