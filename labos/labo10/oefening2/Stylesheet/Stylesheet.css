@@ -1,3 +1,7 @@
+body{
+    background-color: #8D99AE;
+}
+
 .colorGray{
     background-color: gray;
 }
@@ -7,19 +11,30 @@
 }
 
 div[class*='col']{
+    width: 60%;
     height: 200px;
     box-sizing: border-box;
     border: white 10px solid;
 }
 
-@media screen and (min-width: 992px){
-    div{
-        width: 25%;
+@media screen and (min-width: 768px){
+    div[class *= 'col']{
+        width: 50%;
+        float: left;
+    }
+
+    body{
+        background-color: #EF233C;
     }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 992px){
     div[class *= 'col']{
-        width: 45%;
+        width: 22%;
+        float: left;
+    }
+
+    body{
+        background-color: #04fef9;
     }
 }
