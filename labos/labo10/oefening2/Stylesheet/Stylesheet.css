@@ -1,0 +1,25 @@
+.colorGray{
+    background-color: gray;
+}
+
+.colorLightGray{
+    background-color: lightgray;
+}
+
+div[class*='col']{
+    height: 200px;
+    box-sizing: border-box;
+    border: white 10px solid;
+}
+
+@media screen and (min-width: 992px){
+    div{
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    div[class *= 'col']{
+        width: 45%;
+    }
+}
