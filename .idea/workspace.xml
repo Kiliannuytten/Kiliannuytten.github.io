@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -26,31 +26,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Vives/WebDevelopment/Kiliannuytten.github.io/labos/labo10/Mondriaan/Stylesheet",
-    "list.type.of.created.stylesheet": "CSS",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Vives/WebDevelopment/Kiliannuytten.github.io/labos/labo11/Demo/Grid/Stylesheet&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo11\Demo\Grid\Stylesheet" />
+      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo11\Demo\Grid" />
+      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo11\Demo\Bootstrap\Stylesheet" />
+      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo11\Demo\Bootstrap" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo10\Mondriaan\Stylesheet" />
-      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo10\oefening2\Stylesheet" />
-      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo2\Stylesheet" />
-      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo8" />
-      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo7" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo11" />
+      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo11\Demo\beginsituatie" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\Labo9\Positioneren\demonstration pitfalls of mine-block element" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\Stylesheet" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo6\Opdracht 3" />
-      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo5\Opdracht 6" />
-      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo4\Opdracht 4" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -105,7 +105,11 @@
       <workItem from="1670522726913" duration="21000" />
       <workItem from="1670580530065" duration="6556000" />
       <workItem from="1671115320055" duration="3021000" />
-      <workItem from="1671126925309" duration="3575000" />
+      <workItem from="1671126925309" duration="3690000" />
+      <workItem from="1671185312961" duration="6512000" />
+      <workItem from="1671201499923" duration="2819000" />
+      <workItem from="1671307299771" duration="75000" />
+      <workItem from="1671309106353" duration="3190000" />
     </task>
     <servers />
   </component>

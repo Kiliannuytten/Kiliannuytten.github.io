@@ -20,3 +20,7 @@ iframe  {
     height: 900px;
     margin-left: 200px;
 }
+
+a:hover {
+    color: red;
+}
