@@ -1,0 +1,222 @@
+/** Volgende CSS gaan we ze geven **/
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1{
+    color black;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+}
+
+h2{
+
+}
+
+.header{
+    border-bottom: 1px solid #ebe8e8;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header img{
+    height: 50px;
+}
+
+.header img{
+    height: 50px;
+}
+
+.navigation{
+    display: grid;
+    grid-template-columns: repeat(7,auto);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+.navigation span{
+    color: #5b4746;
+    text-align: center;
+    text-transform: uppercase;
+    border-right: 1px solid #ebe8e8;
+}
+
+.navigation span:last-child{
+    border: none;
+}
+
+.navigation span:hover{
+    text-decoration: 2px underline #fff100;
+}
+
+.main{
+    border-top: 1px solid #ebe8e8;
+}
+
+.mainHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-shadow: #8D99AE 2px 2px;
+    font-size: 40px;
+    width: 100%;
+    background-image: url("../images/headerimage.jpg");
+    background-size: cover;
+    height: 500px;
+}
+
+.recepis{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+}
+
+.container{
+    display: grid;
+    grid-template-areas:
+            'article-1 image-1'
+            'article-2 image-2'
+            'article-3 image-3';
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.article-1{grid-area: article-1;}
+.article-2{grid-area: article-2;}
+.article-3{grid-area: article-3;}
+.image-1{grid-area: image-1;}
+.image-2{grid-area: image-2;}
+.image-3{grid-area: image-3;}
+
+.article-1,
+.article-2,
+.article-3{
+
+    border-top: 1px solid #ddd;
+}
+
+.kicker{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    text-space: 1px;
+    color: #ff4d56;
+}
+
+.recipeTitle{
+
+}
+
+.recepiBody{
+    line-height: 2;
+    color: #666;
+}
+
+.recepiAuteur{
+    padding-right: 10px;
+    border-right: 1px solid #ebe8e8;
+}
+
+.recepiAuteur span{
+    color: #666;
+    padding-left: 10px;
+}
+
+.recommended{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recommended img{
+    padding: 5px;
+}
+
+.footer{
+    border-top: 1px solid #ebe8e8;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2em;
+}
+
+#left{
+    float: left;
+    text-align: right;
+    width: 50%;
+    padding-right: 20px;
+}
+
+#right{
+    float: left;
+    text-align: left;
+    color: white;
+    background-color: black;
+    width: 50%;
+    padding-left: 20px;
+}
+
+@media screen and (min-width: 800px) {
+    .mainHeader{
+        font-size: 5em;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .header{
+        width: 600px;
+    }
+
+    .navigation{
+        width: 600px;
+    }
+
+    .recepis{
+        width: 600px;
+    }
+
+    .recommended{
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 770px){
+    .header{
+        width: 750px;
+    }
+
+    .navigation{
+        width: 750px;
+    }
+
+    .recepis{
+        width: 750px;
+    }
+
+    .recommended{
+        width: 750px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .header{
+        width: 980px;
+    }
+
+    .navigation{
+        width: 980px;
+    }
+
+    .recepis{
+        width: 980px;
+    }
+
+    .recommended{
+        width: 980px;
+    }
+}
