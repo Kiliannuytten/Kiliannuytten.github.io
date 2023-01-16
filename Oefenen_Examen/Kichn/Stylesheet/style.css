@@ -24,10 +24,7 @@ h2{
 
 .header img{
     height: 50px;
-}
-
-.header img{
-    height: 50px;
+    width: auto;
 }
 
 .navigation{
