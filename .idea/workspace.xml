@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -32,25 +32,25 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Vives/WebDevelopment/Kiliannuytten.github.io/Oefenen_Examen/Personal_Page_2/Stylesheet&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Vives/WebDevelopment/Kiliannuytten.github.io/Oefenen_Examen/Bootstrap/Tutorial/Stylesheet&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\Oefenen_Examen\Bootstrap\Tutorial\Stylesheet" />
+      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\Oefenen_Examen\Samenvatting_Belangrijke_dingen\Stylesheet" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\Oefenen_Examen\Personal_Page_2\Stylesheet" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo12\Stylesheet" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo11\Demo\Stylesheet" />
-      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo11\Demo\Grid\Stylesheet" />
-      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo11\Demo\Grid" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\Oefenen_Examen\USB" />
+      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\Oefenen_Examen\Kitchn_V2\Stylesheet" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\Oefenen_Examen\Kichn\Stylesheet" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo11" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\labo11\Demo\beginsituatie" />
-      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\Labo9\Positioneren\demonstration pitfalls of mine-block element" />
-      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\Stylesheet" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -133,7 +133,10 @@
       <workItem from="1673639751057" duration="354000" />
       <workItem from="1673713270592" duration="117000" />
       <workItem from="1673720561365" duration="1549000" />
-      <workItem from="1673880647473" duration="681000" />
+      <workItem from="1673880647473" duration="10907000" />
+      <workItem from="1673945982408" duration="3083000" />
+      <workItem from="1673954034158" duration="1062000" />
+      <workItem from="1673958786200" duration="321000" />
     </task>
     <servers />
   </component>
