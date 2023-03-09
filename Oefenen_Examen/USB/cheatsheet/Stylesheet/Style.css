@@ -1,0 +1,97 @@
+.flexTest{
+    max-width: 900px;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.flexTest div{
+    background-color: blue;
+    color: white;
+    height: 50px;
+    width: calc(100%/8);
+}
+
+/*
+        FLEX    ///////////////   FLEX  /////////// FLEX
+ */
+.container{
+    display: flex; /* of inline-flex*/
+    flex-direction: row | row-reverse | column | column-reverse;
+    flex-wrap: nowrap | wrap | wrap-reverse;
+
+    /* HORIZONTAAL MEESTAL */
+    justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
+
+    /* VERTICAAL */
+    align-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
+
+    gap: 10px;
+    gap: 5px 10 px; /* row-gap column-gap*/
+    row-gap: 5px;
+    column-gap: 10px;
+}
+
+.item{
+    order: 5;
+    flex-grow: 4;   /* deelt overige ruimte door getal */
+    flex-shrink: 3;
+    align-self: auto | flex-start | flex-end | center | baseline | stretch;
+}
+
+/*
+CALC    CALC    CALC    CALC    CALC
+ */
+:root {
+    --nav: #1e90ff;
+    --article: #ff9000 ;
+}
+nav {
+    width: 100px;
+    float: left;
+    background: var(--nav);
+}
+article {
+    width: calc(100% - 100px);
+    float: right;
+    background: var(--article);
+}
+article, nav {
+    color: white;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/*
+    CALC 2
+ */
+
+.calc2{
+    box-sizing: border-box;
+    margin: 20px;
+}
+.column-1-7 {
+    width: calc(100% / 7);
+    background-color: #c2e3ec;
+}
+.column-2-7 {
+    width: calc(100%/7*2);
+    background-color: #c2ece0;
+}
+.column-3-7 {
+    width: calc(100%/7*3);
+    background-color: #c2ceec;
+}
+.col {
+    float: left;
+    height: 50px;
+    border: 1px solid black;
+}
+
+/*
+    CALC 2
+ */

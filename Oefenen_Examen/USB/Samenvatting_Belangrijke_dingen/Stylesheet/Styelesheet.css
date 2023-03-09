@@ -39,22 +39,7 @@ HET BLOK WORD GECENTREERD MET CALCULATE ZODAT HET ALTIJD CENTRAAL BLIJFT STAAN
         gap: 10px;
     }
 }
-
 /*
-EEN GALLERIJ VAN FOTOS MET GEBRUIKT VAN BOOTSTRAP
+/////////////////////   FLEX    /////////////////   FLEX    //////////////////////
  */
-
-.gallery{
-    background-color: navajowhite;
-    border: 5px solid;
-    width: 80%;
-    padding-left: 50px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.images div{
-    padding: 20px;
-    border: 2px white;
-}
 

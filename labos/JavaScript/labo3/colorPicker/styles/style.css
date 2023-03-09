@@ -1,0 +1,16 @@
+div{
+    width: 250px;
+    padding-top: 20px;;
+    padding-bottom: 20px;
+    border: 2px #8D99AE;
+    border-radius: 5%;
+}
+
+.swatch{
+    display: inline-block;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin:  0 0 0 1em;
+    height: 4em;
+    width: 5em;
+}

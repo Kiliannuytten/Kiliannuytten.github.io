@@ -1,0 +1,211 @@
+/** Volgende CSS gaan we ze geven **/
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/*
+/////////////////////////// ALGEMEEN  ///////////////////////
+ */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 2.5em;
+    border-bottom: 2px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+h2{
+    font-size: 1.5em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+/*
+////////////////////////////// HEADER ///////////////////////
+ */
+header img{
+    height: 50px;
+    width: auto;
+}
+header div{
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+/*
+////////////////////////////// NAVIGATION ///////////////////////
+ */
+nav{
+    margin-right: auto;
+    margin-left: auto;
+}
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+nav ul li{
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-right: 1px solid #ebe8e8;
+}
+nav ul li:last-child{
+    border: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #5b4746;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+nav ul li:hover{
+    border-bottom: 2px solid #fff100;
+    margin-bottom: -2px;
+}
+/*
+////////////////////////////////////  MAIN HEADER ///////////////////
+ */
+main{
+    border-top: 1px solid #ebe8e8;
+    width: 100%;
+}
+main header{
+    height: 500px;
+    background-image: url("../images/headerimage.jpg");
+    background-size: cover;
+
+    color: white;
+    font-size: 40px;
+    text-shadow: #8D99AE 2px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+////////////////////////////////////  MAIN RECIPES ///////////////////
+ */
+.recipes{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gridBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+main article{
+    margin-right: 1.5em;
+    padding-top: 1em;
+    border-top: 1px solid #ebe8e8;
+}
+.kicker{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    color: #ff4d56;
+}
+h2 a{
+    text-decoration: none;
+    color: black;
+}
+.gridBox article p {
+    color: #666;
+    line-height: 2;
+}
+.auteur{
+    padding-right: 10px;
+    border-right: 1px solid #ebe8e8;
+    font-style: italic;
+}
+.timestamp{
+    color: #666;
+    padding-left: 10px;
+}
+/*
+////////////////////////////////////  MAIN RECOMMENDED ///////////////////
+ */
+.recommended{
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row div{
+    margin-bottom: 25px;
+}
+/*
+////////////////////////////////////  FOOTER ///////////////////
+ */
+footer{
+    border-top: 1px solid #ebe8e8;
+    line-height: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+#left{
+    float: left;
+    width: 50%;
+    text-align: right;
+    padding-right: 20px;
+}
+#right{
+    float: right;
+    text-align: left;
+    width: 50%;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+}
+/*
+///////////////////////////////////////  MEDIA QUERRIES ///////////////
+ */
+@media screen and (min-width: 1000px) {
+    header div{
+        width: 980px;
+    }
+    nav{
+        width: 980px;
+    }
+    main section{
+        width: 980px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    header div{
+        width: 750px;
+    }
+    nav{
+        width: 750px;
+    }
+    main section{
+        width: 750px;
+    }
+}
+@media screen and (max-width: 770px) {
+    header div{
+        width: 600px;
+    }
+    nav{
+        width: 600px;
+    }
+    main section{
+        width: 600px;
+    }
+}
+@media screen and (min-width: 800px) {
+    main header{
+        font-size: 5em;
+    }
+}
