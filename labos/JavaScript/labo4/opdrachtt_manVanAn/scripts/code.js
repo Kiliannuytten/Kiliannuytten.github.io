@@ -1,18 +1,22 @@
 const setup = () => {
-    let txtAn = document.getElementById("txtAn");
-    let zin = txtAn.value;
-    console.log(zin);
+    let txtTekst=document.getElementById("txtTekst");
+    let tekst=txtTekst.value;
+    let txtZoekTekst=document.getElementById("txtZoekTekst");
+    let zoekTekst=txtZoekTekst.value;
+    let txtAantal=document.getElementById("txtAantal");
 
-    let i = 0;
-    let counter = 0;
+    let aantal=telVoorkomens(tekst, zoekTekst);
+    txtAantal.textContent=aantal;
+};
 
-    while(i<txtAn.length){
-        if(txtAn.indexOf(i) == "a" || txtAn.indexOf(i) == "A"){
-            if (txtAn.indexOf(i+1) == "n" || txtAn.indexOf(i+1) == "N"){
-                counter++;
-            }
-        }
+const telVoorkomens = (tekst, zoekTekst) => {
+    let result=0;
+    let idx=tekst.indexOf(zoekTekst);
+    while (idx!=-1) {
+        result++;
+        idx=tekst.indexOf(zoekTekst, idx+zoekTekst.length);
     }
-    console.log(counter);
-}
+    return result;
+};
+
 window.addEventListener("load", setup);
