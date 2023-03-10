@@ -29,10 +29,14 @@ const  calc = () => {
 
         let subtotaal = (prijs + (prijs * (btw/100))) * aantal;
         console.log("subtotaal: " + subtotaal);
+        subtotaal = subtotaal.toFixed(2);
+        subtotaal = parseFloat(subtotaal);
 
         txtSubtotaal[i].innerHTML = subtotaal + " EUR";
         totaal += subtotaal;
     }
+    totaal = totaal.toFixed(2);
+    totaal = parseFloat(totaal);
     document.getElementById("totaal").innerHTML = totaal + " EUR"
 }
 window.addEventListener("load", setup);
