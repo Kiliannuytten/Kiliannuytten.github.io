@@ -3,17 +3,24 @@ body{
     background-color: #17252A;
     display: flex;
     justify-content: center;
-    color: darkblue;
+    color: white;
+    background-image: url("../images/Football.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
 }
 
 section{
-    background-color: #04fef9;
+    background-color: rgba(4,254,249,0.25);
     width: 75%;
     margin-top: 50px;
     border-radius: 50px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 }
 
 header{
+    text-shadow: #17252A 5px 5px;
     text-align: center;
     margin-top: 50px;
     font-size: 3em;
