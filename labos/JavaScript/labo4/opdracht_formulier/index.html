@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" charset="utf-8"
+            src="scripts/code.js"></script>
+    <title>Opdracht formulier</title>
+</head>
+<body>
+<form method="get" action="index.html">
+    <label for="txtFirstName">First name*:</label>
+    <input type="text" id="txtFirstName" name="txtFirstName" autofocus required placeholder="Your first name">
+    </br>
+    <label for="txtLastName">Last name*:</label>
+    <input type="text" id="txtLastName" name="txtLastName" required placeholder="Your last name">
+    </br>
+    <span>Wich sport do you train?</span>
+    </br>
+    <label for="running">Running</label>
+    <input type="checkbox" id="running" name="running"/>
+    <br>
+    <label for="swimming">Swimming</label>
+    <input type="checkbox" id="swimming" name="Swimming"/>
+    <br>
+    <label for="rowing">Rowing</label>
+    <input type="checkbox" id="rowing" name="Rowing"/>
+    <br>
+    <span>What is your gender?</span>
+    <br>
+    <label for="rdbMale">Male</label>
+    <input type="radio" id="rdbMale" name="gender" value="m">
+    <br>
+    <label for="rdbFemale">Female</label>
+    <input type="radio" id="rdbFemale" name="gender" value="f">
+    <br>
+    <label for="movie">Favorite movie;</label>
+    <input type="text" id="movie" name="movie">
+    <br>
+    <label for="quote">Favorite quote</label>
+    <input type="text" id="quote" name="quote" placeholder="Write your favorite quote">
+    <br>
+    <label for="password">Password*:</label>
+    <input type="password" id="password"  required/>
+    <br>
+    <label for="sltFood">Your favorite food:</label>
+    <select multiple="multiple" id="sltFood" name="sltFood" size="3">
+        <option value="1">Cheeseburger</option>
+        <option value="2">Steak with patatten</option>
+        <option value="3">Frietjes from de FrieHour</option>
+        <option value="4">vol-Au-Vant</option>
+        <option value="5">pizzaHawai</option>
+    </select>
+    <br>
+    <input type="file" id="myFile" name="myFile">
+    <br>
+    <label for="email">Email adress:</label>
+    <input type="email" id="email" placeholder="Enter your email adress">
+    <br>
+    <label for="url">Favorite site:</label>
+    <input type="url" id="url" placeholder="Enter the URL of your favorite site">
+    <br>
+    <label for="rgnNumber">Favorite number between 1-10:</label>
+    <input type="number" id="rgnNumber" name="rgnNumber" min="0" max="10">
+    <br>
+    <label for="rgnHighNumber">Favorite number between 11-1000</label>
+    <input type="range" id="rgnHighNumber" name="rgnHighNumber" min="11" max="1000">
+    <br>
+    <label for="txtDate">When were you born?</label>
+    <input type="date" id="txtDate" name="date" placeholder="Dag/Maand/Jaar">
+    <br>
+    <label for="postcode">Belgium zip-code reg number*:</label>
+    <input type="number" id="postcode" name="txtPostcode" min="1000" max="9999" placeholder="9999" required>
+    <br>
+    <label for="message">Search for something</label>
+    <textarea name="message" id="message"></textarea>
+    <br>
+    <label for="color">What is your favorite color</label>
+    <input type="color" id="color" name="color">
+    <br>
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>
