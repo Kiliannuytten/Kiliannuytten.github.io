@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -34,7 +34,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Vives/WebDevelopment/Kiliannuytten.github.io/labos/JavaScript/labo4&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Vives/WebDevelopment/Kiliannuytten.github.io/labos/JavaScript/labo6/extra_oef_nodes/opdracht2/images&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -42,18 +42,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\JavaScript\labo6\extra_oef_nodes\opdracht2\images" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\JavaScript\labo4" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\JavaScript\labo3" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\JavaScript\labo2\styles" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\START\stylesheet" />
-      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\Oefenen_Examen\Bootstrap\Tutorial\Stylesheet" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\JavaScript\labo6\extra_oef_nodes\opdracht1" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\HTML_&amp;_CSS" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\Oefenen_Examen\Kitchn_V3\style" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\Oefenen_Examen\USB\cheatsheat" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\Oefenen_Examen\USB" />
-      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\Oefenen_Examen\Kitchn_V2\Stylesheet" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.code.js">
@@ -170,6 +170,21 @@
       <workItem from="1678448256495" duration="2078000" />
       <workItem from="1678450622846" duration="11900000" />
       <workItem from="1678476182224" duration="2493000" />
+      <workItem from="1678538274713" duration="63000" />
+      <workItem from="1678550031572" duration="46000" />
+      <workItem from="1678550583183" duration="1849000" />
+      <workItem from="1678616881188" duration="1428000" />
+      <workItem from="1678694096420" duration="6389000" />
+      <workItem from="1678735620616" duration="10000" />
+      <workItem from="1678736232279" duration="18000" />
+      <workItem from="1678742216839" duration="621000" />
+      <workItem from="1678822711223" duration="810000" />
+      <workItem from="1678899986422" duration="2776000" />
+      <workItem from="1678973175604" duration="2625000" />
+      <workItem from="1678996130537" duration="17000" />
+      <workItem from="1679058268014" duration="3674000" />
+      <workItem from="1679063301607" duration="5388000" />
+      <workItem from="1679078462733" duration="828000" />
     </task>
     <servers />
   </component>
