@@ -54,5 +54,22 @@ p:hover a{
     color: red;
 }
 
+/*
+/////////////// BACK BUTTON ///////////
+ */
+#btnBack{
+    position: absolute;
+    background-color: #17252A;
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+    height: 100px;
+    width: 200px;
+    border-top-left-radius: 40px;
+    box-shadow: black;
+}
+#btnBack:hover{
+    color: red;
+}
 
 
