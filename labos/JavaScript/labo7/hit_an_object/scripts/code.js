@@ -37,8 +37,8 @@ let changeImage = () => {
 }
 
 let moveImage = (image) => {
-    image.style.left = getRandomGetalBoxWidth()+"px";
-    image.style.top = getRandomGetalBoxHeight()+"px";
+    image.style.left = Math.floor(Math.random() * playField_width) + "px";
+    image.style.top = Math.floor(Math.random() * playField_height) + "px";
 }
 
 const getRandomGetalBoxWidth = () => {
