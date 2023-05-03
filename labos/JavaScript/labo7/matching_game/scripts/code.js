@@ -71,18 +71,18 @@ const compare = (card1, card2) => {
         console.log("DEZELFDE KAART");
         global.AANTAL_JUIST++;
 
-        //const juist = new Audio("sound/kid.mp3");
-        //juist.play();
+        const juist = new Audio("sound/right.mp3");
+        juist.play();
 
         card1.classList.add("juist");   // groene border geven
         card2.classList.add("juist");
 
         setTimeout(function () {
-            juist(card1, card2)
+            verdwijn(card1, card2)
         }, 1000);
 
         if (global.AANTAL_JUIST === global.TOTAL_CARDS) {
-            setTimeout(einde, 2000);
+            setTimeout(einde, 1000);
         }
 
     } else {     // kaarten terugdraaien
@@ -90,8 +90,8 @@ const compare = (card1, card2) => {
         card1.classList.add("fout");
         card2.classList.add("fout");
 
-        //const fout = new Audio("sound/sad.mp3");
-        //fout.play();
+        const wrong = new Audio("sound/wrong.mp3");
+        wrong.play();
 
         setTimeout(function () {
             draaiterug(card1, card2)
@@ -118,7 +118,7 @@ const draaiterug = (card1, card2) => {
     global.TURNED = false; //TURNED RESETTEN , ZODAT GEBRUIKER WEER VERDER KAN SPELEN
 }
 
-const juist = (card1, card2) => {
+const verdwijn = (card1, card2) => {
     card1.style.visibility = "hidden";   //kaarten laten verdwijen
     card2.style.visibility = "hidden";
 
@@ -126,6 +126,12 @@ const juist = (card1, card2) => {
 }
 
 const einde = () => {
-    alert("CONGRATS, you have finally won this game");
+    const end = new Audio("sound/end.mp3");
+    end.play();
+
+    // wanneer spel gedaan is -.  pop up screen maken
+    //                         |
+    document.getElementById('popup').style.display = 'block';
+
 }
 window.addEventListener("load", setup);
