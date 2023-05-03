@@ -53,16 +53,18 @@ const voegPersoonToeAanLijstInUserInterface = (persoon) => {
 const bewerkNieuwePersoon = () => {
     console.log("Klik op de knop nieuw");
 
-    // document.getElementById("txtVoornaam").value = "";
-    // document.getElementById("txtFamilienaam").value = "";
-    // document.getElementById("txtGeboorteDatum").value = "";
-    // document.getElementById("txtEmail").value = "";
-    // document.getElementById("txtAantalKinderen").value = "";
-    let inputElem = document.querySelectorAll('imput[type=text]');
+    document.getElementById("txtVoornaam").value = "";
+    document.getElementById("txtFamilienaam").value = "";
+    document.getElementById("txtGeboorteDatum").value = "";
+    document.getElementById("txtEmail").value = "";
+    document.getElementById("txtAantalKinderen").value = "";
 
-    inputElem.forEach((elem)) => {
-        elem.value=""
-    };
+
+    //let inputElem = document.querySelectorAll('imput[type=text]');
+
+    // inputElem.forEach((elem) => {
+    //     elem.value=""
+    // };
 
     // Zet de user interface klaar om de gegevens van een nieuwe persoon in te voeren
 };

@@ -10,9 +10,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -36,7 +36,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Vives/WebDevelopment/Kiliannuytten.github.io&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -201,7 +201,12 @@
       <workItem from="1682614336367" duration="7904000" />
       <workItem from="1682712633499" duration="1868000" />
       <workItem from="1682764194555" duration="1899000" />
-      <workItem from="1682875439179" duration="2998000" />
+      <workItem from="1682875439179" duration="3964000" />
+      <workItem from="1683037948674" duration="865000" />
+      <workItem from="1683044185741" duration="2081000" />
+      <workItem from="1683103024713" duration="520000" />
+      <workItem from="1683125734151" duration="2391000" />
+      <workItem from="1683132564621" duration="1033000" />
     </task>
     <servers />
   </component>

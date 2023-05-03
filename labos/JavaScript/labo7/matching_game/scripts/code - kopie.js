@@ -43,8 +43,7 @@ const showCard = (e) => {
         global.CLICKCOUNT++;
         let id = e.target.id;
         console.log(id);
-        const flip = new Audio("sound/flip.mp3");
-        flip.play();
+
         if (global.CLICKCOUNT <= 2 ) {
             e.target.src = global.PREFIX + "card" + id + global.SUFFIX;     // kaarten draaien tot er 2 gedraaid zijn
             e.target.classList.remove("achterkant");
@@ -71,9 +70,6 @@ const compare = (card1, card2) => {
         console.log("DEZELFDE KAART");
         global.AANTAL_JUIST++;
 
-        //const juist = new Audio("sound/kid.mp3");
-        //juist.play();
-
         card1.classList.add("juist");   // groene border geven
         card2.classList.add("juist");
 
@@ -89,9 +85,6 @@ const compare = (card1, card2) => {
         console.log("NIET DEZELFDE KAART");
         card1.classList.add("fout");
         card2.classList.add("fout");
-
-        //const fout = new Audio("sound/sad.mp3");
-        //fout.play();
 
         setTimeout(function () {
             draaiterug(card1, card2)

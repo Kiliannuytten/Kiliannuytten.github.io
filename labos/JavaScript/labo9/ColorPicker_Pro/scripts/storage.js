@@ -48,9 +48,9 @@ const storeSwatches = () => {
     let swatches = document.getElementsByClassName("swatch");
     for(let i = 0; i < swatches.length; i++){
         let rgb = {
-            red: swatches[i].getAttribute("data-red");
-            green: swatches[i].getAttribute("data-green");
-            blue: swatches[i].getAttribute("data-blue");
+            red: swatches[i].getAttribute("data-red"),
+            green: swatches[i].getAttribute("data-green"),
+            blue: swatches[i].getAttribute("data-blue"),
         };
         rgbColors.push(rgb);
     }
