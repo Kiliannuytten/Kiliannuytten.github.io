@@ -11,16 +11,22 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/labos/JavaScript/labo10/My_Internet_Starterpage/scripts/code_v2.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2GRPrXhFLZZFP3mfG3flHO7SH9J" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -215,7 +221,9 @@
       <workItem from="1683796396229" duration="6034000" />
       <workItem from="1683820381471" duration="153000" />
       <workItem from="1684325118555" duration="13000" />
-      <workItem from="1684325148415" duration="331000" />
+      <workItem from="1684325148415" duration="560000" />
+      <workItem from="1684333995920" duration="1161000" />
+      <workItem from="1684403141483" duration="6654000" />
     </task>
     <servers />
   </component>
