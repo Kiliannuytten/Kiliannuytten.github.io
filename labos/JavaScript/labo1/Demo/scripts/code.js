@@ -8,13 +8,13 @@ const setup = () => {
 }
 
 const show = () => {
-    let txtName = document.getElementById("txtName");
+    let txtName = document.getElementById("txtName").value;
 
-    if(txtName.value != ""){
-        alert("jouw naam is " + txtName.value);
-        console.log("jouw naam is " + txtName.value);
+    if(txtName != ""){
+        alert("jouw naam is " + txtName);
+        console.log("jouw naam is " + txtName);
 
-        console.log(`jouw naam is ${txtName.value}`);
+        console.log(`jouw naam is ${txtName}`);
     }else {
         alert("gelieve naam in te vullen");
     }

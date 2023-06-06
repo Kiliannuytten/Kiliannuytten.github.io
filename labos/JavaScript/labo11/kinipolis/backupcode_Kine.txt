@@ -14,7 +14,7 @@ let global = {
 const setup = () => {
     setupZaal();
     document.getElementById("btnfind").addEventListener("click", search);
-    restoreChairs()
+    storeChairs();
 }
 const search = () => {
     console.log("search");
@@ -34,15 +34,13 @@ const search = () => {
 
 const showGreenChairs = (i) => {
     let idxFirst = i;
-    let idxSecond = idxFirst + 1;
-    let idxThird = idxSecond + 1;
-    let newSrc = global.PREFIX + global.SELECT + global.SUFFIX;
+    let idxSecond = idxFirst ++;
+    let idxThird = idxSecond ++;
 
-    global.seats[idxFirst].element.setAttribute("src", newSrc);
-    global.seats[idxSecond].element.setAttribute("src", newSrc);
-    global.seats[idxThird].element.setAttribute("src", newSrc);
+    global.seats[idxFirst].setAttribute("src",global.PREFIX + global.SELECT + global.SUFFIX);
+    global.seats[idxSecond].setAttribute("src",global.PREFIX + global.SELECT + global.SUFFIX);
+    global.seats[idxThird].setAttribute("src",global.PREFIX + global.SELECT + global.SUFFIX);
 }
-
 const searchSecondChair = (i) => {
     let rowFirstChair = Math.floor(i / global.COLUMNS);
     let idxSecondChair = i + 1;
@@ -67,34 +65,28 @@ const setupZaal = () => {
         let br = document.createElement("br");
 
         for (let col = 0; col < global.COLUMNS; col++) {
-            let seatIndex = row * global.COLUMNS + col;
+            let seatIndex = row * global.COLUMNS + col; // rij 1 (0) * max rijen + kolom 4 ==> stoel 4, rij 3 (2) * max rijen + stoel 6 = 2*6+6 = stoel 18
             let imgStoel = document.createElement("img");
-            if (!global.seats_values[seatIndex]) {
+            if(!global.seats_values[seatIndex]){
                 imgStoel.setAttribute("src", global.PREFIX + global.UNAVAIL + global.SUFFIX);
-            } else {
+            }else{
                 imgStoel.setAttribute("src", global.PREFIX + global.AVAIL + global.SUFFIX);
             }
             imgStoel.setAttribute("alt", "stoel");
             imgStoel.setAttribute("id", "stoel" + seatIndex);
-
             let seat = {
-                src: imgStoel.getAttribute("src"),
-                element: imgStoel, // Add the element property
-            };
-            global.seats.push(seat);
+                src: imgStoel.getAttribute("src")
+            }
+            global.seats.push(imgStoel);
 
             zaal.appendChild(imgStoel);
 
+            // rij maken
             if (col === global.COLUMNS - 1) {
                 zaal.appendChild(br);
             }
         }
     }
-    storeChairs();
-}
-const restoreChairs = () => {
-    let seats = JSON.parse(localStorage.getItem("NK_Chairs"));
-
 }
 const storeChairs = () => {
     let chairsJSON = JSON.stringify(global.seats);

@@ -11,8 +11,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -40,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Vives/WebDevelopment/Kiliannuytten.github.io",
+    "last_opened_file_path": "D:/github",
     "list.type.of.created.stylesheet": "CSS",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
@@ -48,11 +48,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\JavaScript\labo11\kinipolis\images" />
+      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\JUNI\kinepolis\images" />
+      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\JUNI\kinepolis" />
+      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\JavaScript\labo10\MISP_Own_version" />
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\JavaScript\labo10\My_Internet_Starterpage\styles" />
-      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\JavaScript\labo6\extra_oef_nodes\opdracht2\images" />
-      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\JavaScript\labo4" />
-      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\JavaScript\labo3" />
-      <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\JavaScript\labo2\styles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Vives\WebDevelopment\Kiliannuytten.github.io\labos\JavaScript\labo11\kinipolis\images" />
@@ -224,6 +224,12 @@
       <workItem from="1684325148415" duration="560000" />
       <workItem from="1684333995920" duration="1161000" />
       <workItem from="1684403141483" duration="6654000" />
+      <workItem from="1685907064724" duration="1925000" />
+      <workItem from="1685991675743" duration="1549000" />
+      <workItem from="1686039679490" duration="18417000" />
+      <workItem from="1686072572400" duration="4024000" />
+      <workItem from="1686081713672" duration="2146000" />
+      <workItem from="1686084126554" duration="675000" />
     </task>
     <servers />
   </component>

@@ -158,25 +158,27 @@ const storeCard = (search, url, type) => {
 //kaarten terug ophalen wnr pagina refreshed word
 const restoreCards = () => {
     // kaarten ophalen
-    let storedCards = JSON.parse(localStorage.getItem("cards")) || [];
+    let storedCards = JSON.parse(localStorage.getItem("cards"));
 
-    storedCards.forEach((card) => {
-        switch (card.type) {
-            case "google":
-                makeCardGoogle(card.search, card.url);
-                break;
-            case "youtube":
-                makeCardYoutube(card.search, card.url);
-                break;
-            case "instagram":
-                makeCardInstagram(card.search, card.url);
-                break;
-            case "twitter":
-                makeCardTwitter(card.search, card.url);
-                break;
-            default:
-                break;
-        }
-    });
+    if(storedCards !== null){
+        storedCards.forEach((card) => {
+            switch (card.type) {
+                case "google":
+                    makeCardGoogle(card.search, card.url);
+                    break;
+                case "youtube":
+                    makeCardYoutube(card.search, card.url);
+                    break;
+                case "instagram":
+                    makeCardInstagram(card.search, card.url);
+                    break;
+                case "twitter":
+                    makeCardTwitter(card.search, card.url);
+                    break;
+                default:
+                    break;
+            }
+        });
+    }
 };
 window.addEventListener("load", setup);

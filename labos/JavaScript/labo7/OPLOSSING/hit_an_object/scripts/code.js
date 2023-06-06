@@ -48,7 +48,7 @@ const klik = (ev) => {
     // if (this.className.indexOf("bom") != -1) {
     //Get the element that triggered a specific event:
     console.log(ev.target);
-    if (ev.target.className.indexOf("bom") != -1) {
+    if (ev.target.className.indexOf("bom") !== -1) {
         // bom
         gameOver();
     } else {
@@ -68,7 +68,7 @@ const move = () => {
     let maxTop = speelScherm.clientHeight - global.IMAGE_SIZE;
     let nummer = Math.floor(Math.random() * global.IMAGE_COUNT);
 
-    if (nummer == 0) {
+    if (nummer === 0) {
         // bom
         target.className = "bom";
     } else { // iets anders
@@ -94,13 +94,13 @@ const gameOver = () => {
 
 const hit = () => {
     let scoreSpans = document.getElementsByClassName("score");
-    let i = 0;
+    //let i = 0;
 
     // annuleer timer
     clearTimeout(global.timeoutId);
 
     global.score++;
-    for (i = 0; i < scoreSpans.length; i++) {
+    for (let i = 0; i < scoreSpans.length; i++) {
         scoreSpans[i].innerText = global.score;
     }
 
